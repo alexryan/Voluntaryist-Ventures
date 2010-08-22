@@ -1,0 +1,228 @@
+@CHARSET "UTF-8";
+
+/*
+* {
+  color: #645b54;
+  font-family: "Sans Serif", cursive;
+  font-size: small;
+}
+
+
+h1,h2,h3 {
+  font-family: "Monotype Corsiva",
+               "Apple Chancery",
+               "URW Chancery L",
+               cursive;
+ color: #669835;
+}
+*/
+
+
+* {
+  font-size: small;
+}
+
+
+/* Visualocity menu */
+
+html .visualocityMenu {
+  height:1%; 
+  overflow:visible;
+}/*IE6 haslayout*/
+
+.right {
+  text-align: right;
+  float:right;
+}
+.left {
+  text-align: left;
+  float:left;
+}
+
+#clear {
+  clear:both;
+}
+
+
+/* Add margins to the content of the tabs */
+
+#quotes {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#homePage {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#findQuotePage {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#recentlyAddedQuotes {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+a img {
+  border: none;
+}
+
+
+.forestBrown1 {
+ color: #2e2623;
+}
+.forestBrown2 {
+ color: #645b54;
+}
+.forestBrown3 {
+ color: #855729;
+}
+.forestGreen1 {
+ color: #3b472e;
+}
+
+.forestGreen2 {
+ color: #669835;
+}
+
+/* forms */
+
+fieldset {
+  margin: 1em 1em;
+  padding: 1em;
+  border: 1px solid #2e2623;
+  background: #ffffff;
+}
+
+
+legend {
+  font-weight: bold;
+}
+
+form table {
+  border: none;
+}
+
+form thead {
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+form td {
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+td.form-label {
+  text-align: right; 
+}
+td.form-data {
+  text-align: left; 
+}
+td.form-button {
+  text-align: left; 
+}
+
+/* Search */
+
+#byTagPage input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#findQuotePage input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* tables */
+
+
+
+/* quotes */
+
+.quoteText {
+  color: green;
+}
+.quoteAuthor {
+  color: grey;
+}
+
+table.quotes {
+  border-collapse: collapse;
+  border: 1px solid #2e2623;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+table.quotes thead {
+  border-top: 1px sold #2e2623;
+  border-bottom: 1px solid #2e2623;
+}
+
+table.quotes  td {
+  padding: 0.5em 0.5em;
+  border-top: 1px solid #2e2623; 
+}
+
+table.quotes  th {
+  background-color: #669835;
+  padding: 0.5em 0.5em;
+  font-weight: normal;
+  text-align: left;
+}
+
+table.quotes td.quote {
+  width: 100%;
+}
+
+table.quotes tr[quoteId] td.quoteOperation {
+  min-width: 110px;
+  width: 110px;  
+}
+
+table.quotes form td {
+  padding: 0.0em 0.0em;
+  border-style: none; 
+}
+
+
+#headerGroup1
+{
+}
+
+#headerGroup2
+{
+  display: inline;
+  margin-left: 400px;
+}
+
+.wide {
+  width: 70%;
+}
+
+/* tag cloud */
+
+#tagCloud { 
+  width:290px; background-color:#575454; text-align:center; padding:5px;
+  overflow:auto; font-size:70%; font-family:arial;
+}
+#tagCloud h2 {
+  color:#ffffff; font-size:2.5em; margin:0 0 10px 0;
+  background:url(images/cloud.gif) no-repeat 0; padding:15px 0 15px 80px;
+}
+#tagList { margin:0; padding:0; }
+#tagList li {
+  list-style-type:none; float:left; margin:0 10px; height:35px;
+}
+#tagList li a { text-decoration:none; color:#ffffff; }
+#tagList li a:hover ( text-decoration:underline; }
+
+
+
